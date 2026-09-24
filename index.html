@@ -57,6 +57,27 @@
     <p>For heavier workloads, this tier offers dedicated hosting.</p>
 </article>
 </section>
+    <section id="register">
+    <h2>API Provisioning Registration</h2>
+    <form>
+     <label for="operator-name">Operator Name</label>
+     <input id="operator-name" type="text" required>
+     <label for="operator-email">Operator Email</label>
+     <input id="operator-email" type="email" required>
+     <label for="api-requests">API Requests Per Minute</label>
+     <input id="api-requests" type="number" min="1" max="1000" step="1" required>
+     <label for="region">Region</label>
+     <select id="region" required>
+        <option value="">Select a region</option>
+        <option value="us-east">US East</option>
+        <option value="us-west">US West</option>
+        <option value="eu-central">EU Central</option>
+        <option value="ap-southeast">AP Southeast</option>
+        <option value="sa-east">SA East</option>
+</select>
+<button type="submit">Provision API</button>
+</form>
+</section>
     </main>
  </body>
 </html>
