@@ -87,3 +87,14 @@ footer {
     border-radius: 8px;
     margin-top: 20px;
 }
+
+#register form {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+button:hover {
+    background-color: #555;
+}
