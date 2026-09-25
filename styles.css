@@ -108,3 +108,17 @@ button:focus-visible {
     background-color: #f9f9f9;
     font-weight: bold;
 }
+
+@media (max-width: 768px) {
+    #features,
+#pricing {
+    grid-template-columns: 1fr;
+}
+header {
+    flex-direction: column;
+}
+#register form {
+    flex-direction: column;
+    align-items: stretch;
+}
+}
